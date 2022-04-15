@@ -16,7 +16,7 @@ RUN splunk-appinspect list version
 
 COPY Scripts/validate.sh validate.sh
 COPY AppList/ AppList/
-COPY Rules/*.py Rules/*.py 
+COPY Rules/*.py Rules/
 
 RUN chmod +x validate.sh
 
